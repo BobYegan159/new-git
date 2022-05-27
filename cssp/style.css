@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#contenier{
+    width: 100%;
+
+}
+
+#nav{
+    width: auto;
+    height: 50px;
+    background-color: #02253E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#navtext{
+    padding-right: 3%;
+    text-transform: uppercase;
+}
+
+#navtext ul{
+list-style-type: none;
+padding: 0;
+}
+    
+#navtext ul li{
+display: inline-block; 
+padding: 14px;
+}
+    
+#navtext li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#logo{
+    margin: 83%;
+    margin-top: 1%;
+    height: 50px;
+    width: 60px;
+}
+
+.section-contact{
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    margin: 0px 12%;
+    padding: 0px 2%;
+}
+
+.section-contact p{
+    padding-left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #02253E;
+    font-size: 19px;
+    line-height: 26px;
+}
+
+.section-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #02253E;
+    font-size: 35px;
+    padding: 20px 0;
+}
+
+.hr{
+    margin-top: 15px;
+    height: 0.3px;
+    border: 1px solid #02253E;
+}
+
+.educ{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    color: #02253E;
+    padding-top: 3%;
+}
+
+#under{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: #02253E;
+    justify-content: space-between;
+}
+
+#lenguage{
+    padding-left: 1%;
+}
+
+#lenguage ul{
+    list-style-type: none;
+    padding: 0;
+}
+        
+#lenguage ul li{
+    display: inline-block; 
+    padding: 10px;
+}
+        
+#lenguage li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#creator{
+    padding-right: 2%;
+}
+
+#creator img{
+    height: 19px;
+    width: 19px;
+}
+
+#creator ul{
+    list-style-type: none;
+    padding: 0;
+}
+        
+#creator ul li{
+    display: inline-block; 
+    padding-top: 5%;
+}
+        
+#creator li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#about{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#about p {
+padding-top: 2%;
+}
